@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background-color: rgb(56, 241, 56);
+    cursor: pointer;
+}
+
+.patna{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: 890px;
+    margin-left: 3630px;
+    display: inline;
+}
+
+.patna button{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+#popup{
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: solid;
+    background: rgb(207, 206, 206);
+    
+
+}
+#popup button{
+    height: 40px;
+    width: 40px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    
+}
+.rxl{
+    width: 500px;
+    height: 250px;
+    border-radius: 6px;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    transition: transform 0.4s, top;
+   
+}
+#popup li{
+    list-style:none;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+#popup li a{
+    text-decoration: none;
+    color: red;
+
+}
+#telecompopup{
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: solid;
+    background: rgb(207, 206, 206);
+    
+
+}
+#telecompopup li{
+    list-style:none;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+#telecompopup li a{
+    text-decoration: none;
+    color: red;
+}
+#telecompopup button{
+    height: 40px;
+    width: 40px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    
+}
+#signalpopup{
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: solid;
+    background: rgb(207, 206, 206);
+    
+
+}
+#signalpopup li{
+    list-style:none;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+#signalpopup li a{
+    text-decoration: none;
+    color: red;
+}
+#signalpopup button{
+    height: 40px;
+    width: 40px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    
+}
+.rxl h1{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+#gearpopup{
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: solid;
+    background: rgb(207, 206, 206);
+    
+
+}
+#gearpopup h1{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.gearlist {
+    padding-top: 10px;
+}
+.gearlist li{
+    list-style: none;
+    text-align: center;
+    
+}
+#gearpopup button{
+    height: 40px;
+    width: 40px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    
+}
+#staffpopup{
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: solid;
+    background: rgb(207, 206, 206);
+}
+#staffpopup h1{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.stafflist li{
+    list-style: none;
+    text-align: center;
+    
+}
+#staffpopup button{
+    height: 40px;
+    width: 40px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) ;
+}

@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railways_project</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="scripit.js" ></script>
+   
+</head>
+<body>
+    
+
+        <div class="container">
+            
+            <div class="rxl" id="popup">
+                <h1>RAXAUL JUNCTION (RXL)</h1>
+               <ul>
+                <li onclick=" opentelecom()" >TELECOM</li>
+                <li onclick=" opensignal()">SIGNAL</li>
+               </ul>
+                
+                    <button onclick="closePopup()">X</button>
+            </div>
+
+        </div>
+        <div class="container">
+            
+            <div class="rxl" id="telecompopup">
+                <h1>TELECOM</h1>
+               <ul>
+                <li onclick="opengear()">GEARS</li>
+                <li onclick="openstaff()">STAFF</li>
+               </ul>
+                
+                    <button onclick="closetelecom()">X</button>
+            </div>
+
+        </div>
+        <div class="container">
+            
+            <div class="rxl" id="signalpopup">
+                <h1>SIGNAL</h1>
+               <ul>
+                <li onclick="opengear()">GEARS</li>
+                <li onclick="openstaff()">STAFF</li>
+               </ul>
+                
+                    <button onclick="closesignal()">X</button>
+            </div>
+
+        </div>
+
+        <div class="container">
+            
+            <div class="rxl" id="gearpopup">
+                <h1>GEARS</h1>
+               <ul class="gearlist">
+                <li>STM 4-01 nos</li>
+                <li>PDMUX -01 nos</li>
+                <li>G.730 Modem(UTS/PRS)</li>
+                <li>G.703(FOIS)</li>
+                <li>BTS MTRC</li>
+                <li>V.35 Modem(PRS/UTS)</li>
+                <li>V.35 Modem(FOIS)</li>
+                <li>Router(PRS/UTS)</li>
+                <li>Router(FOIS)</li>
+                <li>Control Phone</li>
+               </ul>
+                
+                    <button onclick="closegear()">X</button>
+            </div>
+
+        </div>
+        <div class="container">
+            
+            <div class="rxl" id="staffpopup">
+                <h1>GEARS</h1>
+               <ul class="stafflist">
+                <li>Gopal SSE/Tele</li>
+                <li>Binod Kumar MCM/Tele</li>
+                <li>Radhey krishna- Asst. S&T</li>
+                
+               </ul>
+                
+                    <button onclick="closestaff()">X</button>
+            </div>
+
+        </div>
+    
+        <div class="patna" onclick="openPopup()">
+            <button >RXL</button>
+        </div>
+        
+        
+  
+   <img src="map.jpg">
+</body>
+</html>
